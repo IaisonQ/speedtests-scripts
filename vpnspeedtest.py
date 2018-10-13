@@ -39,7 +39,7 @@ def main(argv):
 
     vpn_services_map = {}
       
-    #load info on VPn providers configs
+    #load info on VPN providers configs
     if os.path.isfile(CONFIG_FILE_VPNS):
         try:
             with open(CONFIG_FILE_VPNS) as config_file:    
@@ -61,13 +61,6 @@ def main(argv):
                                 (or supply them with --vpn_username= and --vpn_password=)
                 OR
             --vpn               The same as --vpn-list but to only test one VPN provider.
-                OR
-            --vpn-list          Name(s) of the VPN service(s) to test (comma separated list).
-                                Each VPN service needs to be defined in the file: vpnspeedtest-vpns.json
-                                If this option is supplied then the OpenVPN files from the vpn_configs/ folder will be used.
-                                You need to create auth files containing the VPN username and password in the vpn_auth/ folder.
-                                Use the name of the VPN service (lowercase) with a .txt extension (eg: testvpn.txt)
-                                with the username on line #1 and password on line #2
             
             --auth-username     VPN username (only if one VPN service is being tested)  [optional]
             --auth-password     VPN password (only if one VPN service is being tested)  [optional]
@@ -77,12 +70,10 @@ def main(argv):
             --sftp-password     SFTP password   [optional]
 
             Examples:
-            python vpnspeedtest.py --config myFolder/MyVPNConfig.ovpn (and enter VPN username & password later)
+            python vpnspeedtest.py --config vpn_configs/privateinternetaccess/us_denver.ovpn (and enter PIA username and password later)
                 OR
-            python vpnspeedtest.py --vpn=testvpn --auth-username=vpnuser777 --auth-password=secret
-                OR
-            python vpnspeedtest.py --vpn-list=examplevpn,testvpn,myvpn
-            
+            python vpnspeedtest.py --vpn=privateinternetaccess --auth-username=p1234567 --auth-password=password
+
             """
     helptext += "Availabe VPNs for --vpn= and --vpn-list=" + helptext_vpns + "\n"
             
