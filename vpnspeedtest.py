@@ -70,12 +70,12 @@ def main(argv):
             --sftp-password     SFTP password   [optional]
 
             Examples:
-            python vpnspeedtest.py --config vpn_configs/privateinternetaccess/us_denver.ovpn (and enter PIA username and password later)
+            python vpnspeedtest.py --config vpn_configs/privateinternetaccess/us_denver.ovpn (enter PIA username and password later)
                 OR
             python vpnspeedtest.py --vpn=privateinternetaccess --auth-username=p1234567 --auth-password=password
 
             """
-    helptext += "Availabe VPNs for --vpn= and --vpn-list=" + helptext_vpns + "\n"
+    helptext += "Available VPNs for --vpn= and --vpn-list=" + helptext_vpns + "\n"
             
             
     dns_lookup_list = []
