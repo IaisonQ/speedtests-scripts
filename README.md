@@ -1,1 +1,1 @@
-# speedtests-scripts
+# Speedtest Scripts for all PIA regions
