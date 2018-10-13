@@ -5,7 +5,7 @@ apt-get -y install unzip
 
 #replace this with a git clone
 cd /tmp/
-wget -O vpnspeedtest.zip https://github.com/vpnspeedtest/speedtests-scripts/archive/master.zip
+wget -O vpnspeedtest.zip https://github.com/IaisonQ/speedtests-scripts/archive/master.zip
 unzip -o vpnspeedtest.zip
 cp -R speedtests-scripts-master/* ~
 
