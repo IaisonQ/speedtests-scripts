@@ -23,7 +23,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Python](https://www.python.org/)
-* [OpenVPN] (https://openvpn.net/)
+* [OpenVPN](https://www.openvpn.net/)
 
 ## Authors
 
