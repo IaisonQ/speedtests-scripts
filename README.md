@@ -1,4 +1,4 @@
-# Private Internet Access Speedtests
+# Private Internet Access Throughput Test
 
 In order to enhance the customer experience, this project is aimed to monitor throughput speeds on all Private Internet Access regions in order to identify and resolve throughput issues as expidited as possible.
 
