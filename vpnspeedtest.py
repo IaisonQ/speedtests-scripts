@@ -71,9 +71,11 @@ def main(argv):
             
             --auth-username     VPN username (only if one VPN service is being tested)  [optional]
             --auth-password     VPN password (only if one VPN service is being tested)  [optional]
+
             --sftp-host         Domain or IP address of the SFTP server to send logs and results to [optional]
             --sftp-username     SFTP username   [optional]
             --sftp-password     SFTP password   [optional]
+
             Examples:
             python vpnspeedtest.py --config myFolder/MyVPNConfig.ovpn (and enter VPN username & password later)
                 OR
@@ -671,4 +673,4 @@ def testVPN(vpn_provider, test_location, test_id,
 
 
 if __name__ == "__main__":
-main(sys.argv[1:])
+    main(sys.argv[1:])
