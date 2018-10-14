@@ -90,21 +90,21 @@
     },
     "privateinternetaccess":
     {
-		"Amsterdam":["netherlands.ovpn"],
-		"Paris":["france.ovpn"],
-		"Frankfurt":["de_frankfurt.ovpn"],
-		"London":["uk_london.ovpn"],
-		"New York":["us_newyorkcity.ovpn"],
-		"Chicago":["us_chicago.ovpn"],
-		"Dallas":["us_texas.ovpn"],
-		"Atlanta":["us_atlanta.ovpn"],
-		"Los Angeles":["us_west.ovpn"]
-		"Miami":["us_florida.ovpn"],
-		"Seattle":["us_seattle.ovpn"],
-		"Silicon Valley":["us_siliconvalley.ovpn"],
-		"Tokyo":["japan.ovpn"],
-		"Singapore":["singapore.ovpn"],
-		"Sydney":["au_sydney.ovpn"]
+        "Amsterdam":["netherlands.ovpn"],
+        "Paris":["france.ovpn"],
+        "Frankfurt":["de_frankfurt.ovpn"],
+        "London":["uk_london.ovpn"],
+        "New York":["us_newyorkcity.ovpn"],
+        "Chicago":["us_chicago.ovpn"],
+        "Dallas":["us_texas.ovpn"],
+        "Atlanta":["us_atlanta.ovpn"],
+        "Los Angeles":["us_west.ovpn"]
+        "Miami":["us_florida.ovpn"],
+        "Seattle":["us_seattle.ovpn"],
+        "Silicon Valley":["us_siliconvalley.ovpn"],
+        "Tokyo":["japan.ovpn"],
+        "Singapore":["singapore.ovpn"],
+        "Sydney":["au_sydney.ovpn"]
     },
     "privatoria":
     {
