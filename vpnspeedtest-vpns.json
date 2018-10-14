@@ -98,7 +98,7 @@
         "Chicago":["us_chicago.ovpn"],
         "Dallas":["us_texas.ovpn"],
         "Atlanta":["us_atlanta.ovpn"],
-        "Los Angeles":["us_west.ovpn"]
+        "Los Angeles":["us_west.ovpn"],
         "Miami":["us_florida.ovpn"],
         "Seattle":["us_seattle.ovpn"],
         "Silicon Valley":["us_siliconvalley.ovpn"],
