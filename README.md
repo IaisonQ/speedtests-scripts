@@ -14,7 +14,7 @@ Tests are run on Vultr VPS (Virtual Private Server) infrastructure. Each Vultr s
 
 After logging and funding your Vultr account. You will be able to create a VPS by clicking the large + symbol in the top right.
 
-Server Location: Choose your server location. For the most reflective results, select the region closest to your actual location. Not every country is currently available from Vultr however they expand regions.
+Server Location: Choose the region closest to your actual location for the most reflective results. Not every country is currently available from Vultr however they occasionally expand regions.
 
 Server Type: Choose Debian 9 x64 as your Server Type.
 
