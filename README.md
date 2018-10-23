@@ -9,20 +9,20 @@ By open sourcing the code base and instructions, this allows all users to replic
 
 ### Installing
 
-1. Create a Vultr account.
+Create a Vultr account.
 Tests are run on Vultr VPS (Virtual Private Server) infrastructure. Each Vultr server can download at speeds much faster than most consumer internet connections. Servers cost less than $0.01 an hour and can be created in an instant and then destroyed when they're no longer needed. Additionally Vultr VPS servers are offered in a range of locations meaning that you can chose the server location lcosest to your actual location.
 
-2. After logging and funding your Vultr account. You will be able to create a VPS by clicking the large + symbol in the top right.
+After logging and funding your Vultr account. You will be able to create a VPS by clicking the large + symbol in the top right.
 
-3. Server Location: Choose your server location. For the most reflective results, select the region closest to your actual location. Not every country is currently available from Vultr however they expand regions.
+Server Location: Choose your server location. For the most reflective results, select the region closest to your actual location. Not every country is currently available from Vultr however they expand regions.
 
-4. Server Type: Choose Debian 9 x64 as your Server Type.
+Server Type: Choose Debian 9 x64 as your Server Type.
 
-5. Server Size: Select cheapest (non-IPv6) as the Server Size.
+Server Size: Select cheapest (non-IPv6) as the Server Size.
 
-6. Additional Features: No additional features are required.
+Additional Features: No additional features are required.
 
-7. Startup Script: Click 'Add New' and enter the following, then save:
+Startup Script: Click 'Add New' and enter the following, then save:
 
     #!/bin/sh
     
@@ -51,26 +51,26 @@ Tests are run on Vultr VPS (Virtual Private Server) infrastructure. Each Vultr s
     
     python vpnspeedtest.py --help
 	
-8. SSH Keys: No SSH Keys are required.
+SSH Keys: No SSH Keys are required.
 
-9. Server Hostname & Label: You can leave Server Hostname & Label blank.
+Server Hostname & Label: You can leave Server Hostname & Label blank.
 
-10 Click 'Deploy Now'.
+Click 'Deploy Now'.
 
 
 ## Running the tests
 
-1. You will need to connect to the VPS you just created when the server has finished being built. You can check this by connecting via SSH to the server. The Vultr panel contain your username and password. You can check to see if the startup script has finished by typing:
+You will need to connect to the VPS you just created when the server has finished being built. You can check this by connecting via SSH to the server. The Vultr panel contain your username and password. You can check to see if the startup script has finished by typing:
 
     tail -n 40 -f /tmp/firstboot.log
 	
 When the script has finished, it will display the --help file. You can get back to the prompt by pressing Ctrl+C.
 
-2. To run the speedtest, you need to enter the following password whilst replacing the username and password with your own account credentials.
+To run the speedtest, you need to enter the following password whilst replacing the username and password with your own account credentials.
 
     python vpnspeedtest.py --vpn=privateinternetaccess --auth-username=p1234567 --auth-password=password
 	
-3. Additional features will be added to allow for comparative speedtests and more regions.
+Additional features will be added to allow for comparative speedtests and more regions.
 
 
 ## Deployment
